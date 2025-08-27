@@ -61,3 +61,4 @@ smooth = highpass_fir(white_strain, 20, 8)
 smooth = lowpass_fir(smooth, 1024, 8)
 
 np.save(outputfile, np.array(smooth.data))
+np.savetxt('./data/injection_time.txt', tclist)

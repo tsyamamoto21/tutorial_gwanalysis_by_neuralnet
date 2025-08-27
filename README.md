@@ -1,5 +1,12 @@
 # Tutorial for GW annalysis by neural network
 
+## Dependencies
+
+- `numpy`
+- `matplotlib`
+- `pycbc`: https://pycbc.org/
+- `sbi`: https://github.com/sbi-dev/sbi
+
 ## Notebooks
 
 - `bbh_search.ipynb`: searching GWs from BBH

@@ -1,13 +1,16 @@
 #!/usr/bin/env python
+import os
 import numpy as np
 import torch
 from tqdm import tqdm
-# from scipy.signal.windows import tukey
 from pycbc.filter import highpass
 from pycbc.waveform import get_td_waveform
 from pycbc.psd import aLIGOZeroDetHighPower, interpolate
 from pycbc.conversions import mass1_from_mchirp_q, mass2_from_mchirp_q
 
+
+if not os.path.exists('./data/'):
+    os.makedirs('./data/')
 
 fs = 4096
 duration = 1.2
@@ -30,7 +33,7 @@ k_zeropsd = psd.data == 0.0
 psd.data[k_zeropsd] = 1e+10
 
 
-for mode in ['train', 'validate', 'test']:
+for mode in ['train', 'validate']:
     outputfile = f'data/inputs_{mode}.pth'
     nsample = nsample_dict[mode]
     waveforms = torch.zeros((nsample, 2, length), dtype=torch.float32)
