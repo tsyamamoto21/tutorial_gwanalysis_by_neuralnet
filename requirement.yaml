@@ -1,0 +1,16 @@
+name: dl4gw
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - matplotlib
+  - pytorch=2.5.1
+  - torchvision
+  - astropy
+  - PyCBC
+  - jupyter
+  - tqdm
+  - sbi
