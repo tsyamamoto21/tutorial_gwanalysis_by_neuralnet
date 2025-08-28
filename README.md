@@ -18,7 +18,7 @@
 - Create conda environment
 
 ```
-conda env create -f requirement.yaml
+conda env create -f dl4gw.yaml
 conda activate dl4gw
 ```
 
@@ -37,3 +37,14 @@ mkdir data/
 
 - Run notebook `bbh_search.ipynb`
 
+
+## Instruction for damped sinusoidal signals with SBI
+
+- Create conda environment
+
+```
+conda env create -f sbi_env.yaml
+conda activate sbi_env
+```
+
+- Run notebook `damped_sinusoid.ipynb` and `spectroscopy.ipynb`
