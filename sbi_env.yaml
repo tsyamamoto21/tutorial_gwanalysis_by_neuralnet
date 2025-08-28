@@ -1,0 +1,10 @@
+name: dl4gw
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+  - sbi
