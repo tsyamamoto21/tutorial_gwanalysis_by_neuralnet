@@ -1,4 +1,4 @@
-# Tutorial for GW annalysis by neural network
+# Tutorial for gravitational wave data annalysis by neural network
 
 ## Dependencies
 
