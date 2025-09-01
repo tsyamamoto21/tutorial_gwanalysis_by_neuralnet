@@ -5,6 +5,7 @@
 - `numpy`
 - `matplotlib`
 - `pycbc`: https://pycbc.org/
+- `pytorch`: https://pytorch.org/
 - `sbi`: https://github.com/sbi-dev/sbi
 
 ## Notebooks
