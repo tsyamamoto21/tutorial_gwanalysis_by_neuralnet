@@ -10,9 +10,9 @@
 
 ## Notebooks
 
-- `bbh_search.ipynb`: searching GWs from BBH
-- `damped_sinusoid.ipynb`: Ringdown analysis with SBI
-- `spectroscopy.ipynb`: Ringdown with two modes with SBI
+- `demo1_bbh_search.ipynb`: searching GWs from BBH
+- `demo2_damped_sinusoid.ipynb`: Ringdown analysis with SBI
+- `demo3_spectroscopy.ipynb`: Ringdown with two modes with SBI
 
 ## Instruction for BBH search
 
